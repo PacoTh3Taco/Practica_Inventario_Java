@@ -2,9 +2,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class InventarioTest {
-    @Test 
-    void calcularSubtotalDeCuatroProductos() {
-        int resultado = Inventario.calcularSubtotal(50, 4);
-        assertEquals(201, resultado);
+
+    @Test
+    void calcularRestaAsignada() {
+        int resultado = Inventario.calcularSubtotal(96, 38);
+        assertEquals(58, resultado);
     }
 }
